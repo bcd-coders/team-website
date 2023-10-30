@@ -3,15 +3,30 @@ import { useState } from "react";
 import OfferList from "./OfferList";
 import PricingBox from "./PricingBox";
 
+
 const Pricing = () => {
   const [isMonthly, setIsMonthly] = useState(true);
 
   return (
     <section id="pricing" className="relative z-10 py-16 md:py-20 lg:py-28">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6">
+      <div className="py-12 md:py-20 border-t border-gray-800">
+
+        {/* Section header */}
+        <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
+          <div className="inline-flex text-sm font-semibold py-1 px-3 m-2 text-green-600 bg-green-200 rounded-full mb-4">Reach goals that matter</div>
+          <h1 className="h2 mb-4">Simple and Affordable Pricing</h1>
+          <p className="text-xl text-gray-400">We offer Basic and Premium plans that cater to different budgets and goals. Our commitment to affordability means you get exceptional value without compromising on quality. Explore our pricing options to find the plan that best suits your requirements, and remember, we stand behind our work with a satisfaction guarantee.</p>
+        </div>
+
+        
+
+        </div>
+        </div>
       <div className="container">
 
         <div className="w-full">
-          <div className="wow fadeInUp mb-8 flex justify-center md:mb-12 lg:mb-16" data-wow-delay=".1s">
+        <div className="flex justify-center md:mb-12 lg:mb-16" data-wow-delay=".1s">
             <span
               onClick={() => setIsMonthly(true)}
               className={`${
@@ -51,14 +66,14 @@ const Pricing = () => {
         </div>
 
         <div className="w-full max-w-screen-xl mx-auto">
-  {/* Center the pricing boxes horizontally and give them space or gap */}
-  <div className="flex justify-center">
+  
+        <div className="max-w-6xl mx-auto px-4 sm:px-500">
     <div className="flex space-x-4">
       <PricingBox
         packageName="Basic Plan"
         price={isMonthly ? "399" : "789"}
         duration={isMonthly ? "mo" : "yr"}
-        subtitle="Basic plan is simple and straightforward. They serve as an online brochure for your business, providing essential information. These sites are easy to create and maintain a cost-effective established online presence."
+        subtitle="The Basic plan offers simplicity and directness. It acts as a digital presence for your company, delivering vital details. These platforms are simple to construct and sustain, providing a budget-friendly, established online existence."
       >
         <OfferList text="All UI Components" status="active" />
         <OfferList text="Use with Unlimited Projects" status="inactive" />
@@ -71,7 +86,7 @@ const Pricing = () => {
         packageName="Premium Plan"
         price={isMonthly ? "589" : "999"}
         duration={isMonthly ? "mo" : "yr"}
-        subtitle="Premium Plan is more advanced and captivating. They not only provide information but also allow users to interact with your content. These websites can have features like contact forms, blog sections, and more."
+        subtitle="The Premium Plan is more sophisticated and engaging. It not only imparts information but also enables users to engage with your content. These websites may include elements such as contact forms, blog sections, and more."
       >
         <OfferList text="All UI Components" status="active" />
         <OfferList text="Use with Unlimited Projects" status="active" />

@@ -28,10 +28,10 @@ export default function Hero() {
             <p className="text-xl text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="200">Whether you're embarking on a new project or need to enhance an existing one, GO::BCD is here to help. We're passionate about coding, and we're dedicated to helping you succeed in the digital world.</p>
             <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
               <div data-aos="fade-up" data-aos-delay="400">
-                <a className="btn text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0" href="#0">Get Started</a>
+                <a className="btn text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0" href="#pricing">Get Started</a>
               </div>
               <div data-aos="fade-up" data-aos-delay="600">
-  <a className="btn text-white bg-gray-700 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="#">Learn more</a>
+  <a className="btn text-white bg-gray-700 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="#features">Learn more</a>
 </div>
             </div>
           </div>

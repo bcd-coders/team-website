@@ -6,6 +6,7 @@ export default function Features() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
+            <section id="fearures"></section>
             <h2 className="h2 mb-4">What we can offer</h2>
             <p className="text-xl text-gray-400">Whether you're looking for a stunning web presence or seeking innovative digital solutions, we've got you covered. Our services encompass web design and development, digital marketing, e-commerce solutions, and more.</p>
           </div>
