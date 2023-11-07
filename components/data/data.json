@@ -1,0 +1,25 @@
+{
+    "Team": [
+      {
+        "img": "images/01.jpg",
+        "name": "Rex Posadas",
+        "job": "CEO"
+      },
+      {
+        "img": "images/01.jpg",
+        "name": "Lanz Montelibano",
+        "job": "Developer"
+      },
+      {
+        "img": "images/01.jpg",
+        "name": "Ziegfred Carmona",
+        "job": "Developer"
+      },
+      {
+        "img": "images/01.jpg",
+        "name": "Azaleah Caram",
+        "job": "Project Manager"
+      }
+    ]
+  }
+  

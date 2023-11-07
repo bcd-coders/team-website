@@ -1,82 +1,73 @@
+import React from 'react';
+
 export const metadata = {
-  title: 'Sign Up - Open PRO',
-  description: 'Page description',
+  title: 'BCD::GO',
+  description: 'Meet the talented individuals behind our work.',
 }
 
-import Link from 'next/link'
-
-export default function SignUp() {
+export default function Team() {
   return (
     <section className="relative">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="pt-32 pb-12 md:pt-40 md:pb-20">
 
-          {/* Page header */}
+          {/* Team header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h1 className="h1">Welcome. We exist to make entrepreneurship easier.</h1>
+            <h1 className="h1">Meet Our Team</h1>
+            <p className="text-xl text-gray-400">Our dedicated and experienced team is at the heart of our website development services. We're passionate about helping businesses thrive in the digital world. Get to know the faces behind the creativity and innovation:</p>
           </div>
 
-          {/* Form */}
-          <div className="max-w-sm mx-auto">
-            <form>
-              <div className="flex flex-wrap -mx-3">
-                <div className="w-full px-3">
-                  <button className="btn px-0 text-white bg-red-600 hover:bg-red-700 w-full relative flex items-center">
-                    <svg className="w-4 h-4 fill-current text-white opacity-75 shrink-0 mx-4" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M7.9 7v2.4H12c-.2 1-1.2 3-4 3-2.4 0-4.3-2-4.3-4.4 0-2.4 2-4.4 4.3-4.4 1.4 0 2.3.6 2.8 1.1l1.9-1.8C11.5 1.7 9.9 1 8 1 4.1 1 1 4.1 1 8s3.1 7 7 7c4 0 6.7-2.8 6.7-6.8 0-.5 0-.8-.1-1.2H7.9z" />
-                    </svg>
-                    <span className="h-6 flex items-center border-r border-white border-opacity-25 mr-4" aria-hidden="true"></span>
-                    <span className="flex-auto pl-16 pr-8 -ml-16">Sign up with Google</span>
-                  </button>
-                </div>
-              </div>
-            </form>
-            <div className="flex items-center my-6">
-              <div className="border-t border-gray-700 border-dotted grow mr-3" aria-hidden="true"></div>
-              <div className="text-gray-400">Or, register with your email</div>
-              <div className="border-t border-gray-700 border-dotted grow ml-3" aria-hidden="true"></div>
+          {/* Team members */}
+          <div className="max-w-3xl mx-auto grid gap-8 md:grid-cols-3 items-start md:max-w-2xl lg:max-w-none" data-aos-id-blocks>
+
+            {/* Team member 1 */}
+            <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-anchor="[data-aos-id-blocks]">
+              <img className="w-40 h-90 mb-4" src="images/01.jpg" alt="Team Member 1" />
+              <h4 className="h4 mb-2">Rex Posadas</h4>
+              <p className="text-lg text-gray-400 text-center">CEO / Developer</p>
+              <button className="btn text-white bg-purple-600 hover:bg-purple-700 w-90 mt-2">See Portfolio</button>
             </div>
-            <form>
-              <div className="flex flex-wrap -mx-3 mb-4">
-                <div className="w-full px-3">
-                  <label className="block text-gray-300 text-sm font-medium mb-1" htmlFor="full-name">Full Name <span className="text-red-600">*</span></label>
-                  <input id="full-name" type="text" className="form-input w-full text-gray-300" placeholder="First and last name" required />
-                </div>
-              </div>
-              <div className="flex flex-wrap -mx-3 mb-4">
-                <div className="w-full px-3">
-                  <label className="block text-gray-300 text-sm font-medium mb-1" htmlFor="company-name">Company Name <span className="text-red-600">*</span></label>
-                  <input id="company-name" type="text" className="form-input w-full text-gray-300" placeholder="Your company or app name" required />
-                </div>
-              </div>
-              <div className="flex flex-wrap -mx-3 mb-4">
-                <div className="w-full px-3">
-                  <label className="block text-gray-300 text-sm font-medium mb-1" htmlFor="email">Work Email <span className="text-red-600">*</span></label>
-                  <input id="email" type="email" className="form-input w-full text-gray-300" placeholder="you@yourcompany.com" required />
-                </div>
-              </div>
-              <div className="flex flex-wrap -mx-3 mb-4">
-                <div className="w-full px-3">
-                  <label className="block text-gray-300 text-sm font-medium mb-1" htmlFor="password">Password <span className="text-red-600">*</span></label>
-                  <input id="password" type="password" className="form-input w-full text-gray-300" placeholder="Password (at least 10 characters)" required />
-                </div>
-              </div>
-              <div className="text-sm text-gray-500 text-center">
-                I agree to be contacted by GO::BCD about this offer as per the GO::BCD <Link href="#" className="underline text-gray-400 hover:text-gray-200 hover:no-underline transition duration-150 ease-in-out">Privacy Policy</Link>.
-              </div>
-              <div className="flex flex-wrap -mx-3 mt-6">
-                <div className="w-full px-3">
-                  <button className="btn text-white bg-purple-600 hover:bg-purple-700 w-full">Sign up</button>
-                </div>
-              </div>
-            </form>
-            <div className="text-gray-400 text-center mt-6">
-              Already have an account? <Link href="/signin" className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out">Sign in</Link>
+
+            {/* Team member 2 */}
+            <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-anchor="[data-aos-id-blocks]">
+              <img className="w-40 h-90 mb-4" src="images/01.jpg" alt="Team Member 2" />
+              <h4 className="h4 mb-2">Lanz Montelibano</h4>
+              <p className="text-lg text-gray-400 text-center">Developer</p>
+              <button className="btn text-white bg-purple-600 hover:bg-purple-700 w-90 mt-2">See Portfolio</button>
+            </div>
+
+            {/* Team member 3 */}
+            <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-anchor="[data-aos-id-blocks]">
+              <img className="w-40 h-90 mb-4" src="images/01.jpg" alt="Team Member 3" />
+              <h4 className="h4 mb-2">Ziefred Carmona</h4>
+              <p className="text-lg text-gray-400 text-center">Developer</p>
+              <button className="btn text-white bg-purple-600 hover:bg-purple-700 w-90 mt-2">See Portfolio</button>
             </div>
           </div>
 
+          {/* Spacing between the two groups of team members */}
+          <div style={{ height: '40px' }} />
+
+          {/* Center-aligned Team members 4 and 5 */}
+          <div className="max-w-3xl mx-auto grid gap-0 md:grid-cols-2 items-center md:max-w-2xl lg:max-w-none" data-aos-id-blocks>
+            {/* Team member 4 */}
+            <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-anchor="[data-aos-id-blocks]">
+              <img className="w-40 h-90 mb-4" src="images/01.jpg" alt="Team Member 4" />
+              <h4 className="h4 mb-2">Ariel Parcon</h4>
+              <p className="text-lg text-gray-400 text-center">Developer</p>
+              <button className="btn text-white bg-purple-600 hover:bg-purple-700 w-90 mt-2">See Portfolio</button>
+            </div>
+
+            {/* Team member 5 */}
+            <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-anchor="[data-aos-id-blocks]">
+              <img className="w-40 h-90 mb-4" src="images/01.jpg" alt="Team Member 5" />
+              <h4 className="h4 mb-2">Azaleah Caram</h4>
+              <p className="text-lg text-gray-400 text-center">Project Manager</p>
+              <button className="btn text-white bg-purple-600 hover:bg-purple-700 w-90 mt-2">See Portfolio</button>
+            </div>
+          </div>
         </div>
       </div>
     </section>
-  )
+  );
 }
