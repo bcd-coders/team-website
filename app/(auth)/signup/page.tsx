@@ -33,7 +33,7 @@ export default function Team() {
               <img className="w-40 h-90 mb-4" src="images/01.jpg" alt="Team Member 2" />
               <h4 className="h4 mb-2">Lanz Montelibano</h4>
               <p className="text-lg text-gray-400 text-center">Developer</p>
-              <button className="btn text-white bg-purple-600 hover:bg-purple-700 w-90 mt-2">See Portfolio</button>
+              <button className="btn text-white bg-purple-600 hover:bg-purple-700 w-90 mt-2"><a href='https://lanchuii.github.io/lanchuii/'>See Portfolio</a></button>
             </div>
 
             {/* Team member 3 */}
