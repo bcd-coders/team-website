@@ -18,7 +18,7 @@ export default function workExperience({workExperience}: Props) {
   return (
     <SectionWrapper title="Work Experience"> 
       {workExperience.map((data, i)=>(
-        <li className={i % 2 ? `mt-1` : `mt-half`}>
+        <div className={i % 2 ? `mt-1` : `mt-half`}>
         <div className="flex">
           <h3>
             {data.company} - {data.location}
@@ -32,7 +32,7 @@ export default function workExperience({workExperience}: Props) {
             <li key={bulletPoint}>{bulletPoint}</li>
           ))}
         </ul>
-      </li>
+      </div>
       ))}
    </SectionWrapper>
   )
