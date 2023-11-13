@@ -58,5 +58,23 @@ export const profileData = [
               ]
             },
         ]
-    }
+    },
+    {
+      Name: "Ariel",
+      Email: "Ariel@email.com",
+      workExperience: [
+          {
+            title: "Software Engineer",
+            company: "Cest Louvi",
+            location: "Bacolod City",
+            date: "Sept 2023 - Present",
+            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+            bulletPoints: [
+              "Ariel Info1.",
+              "Ariel Info2.",
+              "Ariel Info3.",
+            ]
+          },
+      ]
+  }
 ]

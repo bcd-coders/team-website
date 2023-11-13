@@ -57,7 +57,7 @@ export default function Team() {
               <img className="w-40 h-90 mb-4" src="images/01.jpg" alt="Team Member 4" />
               <h4 className="h4 mb-2">Ariel Parcon</h4>
               <p className="text-lg text-gray-400 text-center">Developer</p>
-              <button className="btn text-white bg-purple-600 hover:bg-purple-700 w-90 mt-2">See Portfolio</button>
+              <button className="btn text-white bg-purple-600 hover:bg-purple-700 w-90 mt-2"><Link href='/signup/2'>See Portfolio</Link></button>
             </div>
 
             {/* Team member 5 */}
