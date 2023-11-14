@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 
 export const metadata = {
   title: 'BCD::GO',
@@ -6,6 +7,7 @@ export const metadata = {
 }
 
 export default function Team() {
+
   return (
     <section className="relative">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
@@ -33,7 +35,7 @@ export default function Team() {
               <img className="w-40 h-90 mb-4" src="images/01.jpg" alt="Team Member 2" />
               <h4 className="h4 mb-2">Lanz Montelibano</h4>
               <p className="text-lg text-gray-400 text-center">Developer</p>
-              <button className="btn text-white bg-purple-600 hover:bg-purple-700 w-90 mt-2"><a href='https://lanchuii.github.io/lanchuii/'>See Portfolio</a></button>
+              <button className="btn text-white bg-purple-600 hover:bg-purple-700 w-90 mt-2"><Link href='/signup/0'>See Portfolio</Link></button>
             </div>
 
             {/* Team member 3 */}
@@ -41,7 +43,7 @@ export default function Team() {
               <img className="w-40 h-90 mb-4" src="images/01.jpg" alt="Team Member 3" />
               <h4 className="h4 mb-2">Ziefred Carmona</h4>
               <p className="text-lg text-gray-400 text-center">Developer</p>
-              <button className="btn text-white bg-purple-600 hover:bg-purple-700 w-90 mt-2">See Portfolio</button>
+              <button className="btn text-white bg-purple-600 hover:bg-purple-700 w-90 mt-2"><Link href='/signup/1'>See Portfolio</Link></button>
             </div>
           </div>
 
@@ -55,7 +57,7 @@ export default function Team() {
               <img className="w-40 h-90 mb-4" src="images/01.jpg" alt="Team Member 4" />
               <h4 className="h4 mb-2">Ariel Parcon</h4>
               <p className="text-lg text-gray-400 text-center">Developer</p>
-              <button className="btn text-white bg-purple-600 hover:bg-purple-700 w-90 mt-2">See Portfolio</button>
+              <button className="btn text-white bg-purple-600 hover:bg-purple-700 w-90 mt-2"><Link href='/signup/2'>See Portfolio</Link></button>
             </div>
 
             {/* Team member 5 */}
