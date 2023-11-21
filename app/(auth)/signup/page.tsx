@@ -26,24 +26,24 @@ export default function Team() {
             <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-anchor="[data-aos-id-blocks]">
               <img className="w-40 h-90 mb-4" src="images/01.jpg" alt="Team Member 1" />
               <h4 className="h4 mb-2">Rex Posadas</h4>
-              <p className="text-lg text-gray-400 text-center">CEO / Developer</p>
-              <button className="btn text-white bg-purple-600 hover:bg-purple-700 w-90 mt-2">See Portfolio</button>
+              <p className="text-lg text-gray-400 text-center">CEO / Software Engineer</p>
+              <button className="btn text-white bg-purple-600 hover:bg-purple-700 w-90 mt-2">See Resume</button>
             </div>
 
             {/* Team member 2 */}
             <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-anchor="[data-aos-id-blocks]">
               <img className="w-40 h-90 mb-4" src="images/01.jpg" alt="Team Member 2" />
               <h4 className="h4 mb-2">Lanz Montelibano</h4>
-              <p className="text-lg text-gray-400 text-center">Developer</p>
-              <button className="btn text-white bg-purple-600 hover:bg-purple-700 w-90 mt-2"><Link href='/signup/0'>See Portfolio</Link></button>
+              <p className="text-lg text-gray-400 text-center">Software Engineer</p>
+              <button className="btn text-white bg-purple-600 hover:bg-purple-700 w-90 mt-2"><Link href='/signup/0'>See Resume</Link></button>
             </div>
 
             {/* Team member 3 */}
             <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-anchor="[data-aos-id-blocks]">
               <img className="w-40 h-90 mb-4" src="images/01.jpg" alt="Team Member 3" />
               <h4 className="h4 mb-2">Ziefred Carmona</h4>
-              <p className="text-lg text-gray-400 text-center">Developer</p>
-              <button className="btn text-white bg-purple-600 hover:bg-purple-700 w-90 mt-2"><Link href='/signup/1'>See Portfolio</Link></button>
+              <p className="text-lg text-gray-400 text-center">Software Engineer</p>
+              <button className="btn text-white bg-purple-600 hover:bg-purple-700 w-90 mt-2"><Link href='/signup/1'>See Resume</Link></button>
             </div>
           </div>
 
@@ -56,8 +56,8 @@ export default function Team() {
             <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-anchor="[data-aos-id-blocks]">
               <img className="w-40 h-90 mb-4" src="images/01.jpg" alt="Team Member 4" />
               <h4 className="h4 mb-2">Ariel Parcon</h4>
-              <p className="text-lg text-gray-400 text-center">Developer</p>
-              <button className="btn text-white bg-purple-600 hover:bg-purple-700 w-90 mt-2"><Link href='/signup/2'>See Portfolio</Link></button>
+              <p className="text-lg text-gray-400 text-center">Software Engineer</p>
+              <button className="btn text-white bg-purple-600 hover:bg-purple-700 w-90 mt-2"><Link href='/signup/2'>See Resume</Link></button>
             </div>
 
             {/* Team member 5 */}
@@ -65,7 +65,7 @@ export default function Team() {
               <img className="w-40 h-90 mb-4" src="images/01.jpg" alt="Team Member 5" />
               <h4 className="h4 mb-2">Azaleah Caram</h4>
               <p className="text-lg text-gray-400 text-center">Project Manager</p>
-              <button className="btn text-white bg-purple-600 hover:bg-purple-700 w-90 mt-2">See Portfolio</button>
+              <button className="btn text-white bg-purple-600 hover:bg-purple-700 w-90 mt-2">See Resume</button>
             </div>
           </div>
         </div>

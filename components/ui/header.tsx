@@ -9,12 +9,12 @@ export default function Header() {
           {/* Site branding */}
           <div className="shrink-0 mr-4">
             {/* Logo */}
-<Link href="/" className="block" aria-label="Cruip">
-  <div>
-    <img src="/images/logo.png" alt="Cruip Logo" width="100" />
-  </div>
-</Link>
-</div>
+            <Link href="/" className="block" aria-label="Cruip">
+              <div>
+                <img src="/images/logo.png" alt="Cruip Logo" width="100" />
+              </div>
+            </Link>
+            </div>
 
           {/* Desktop navigation */}
           <nav className="hidden md:flex md:grow">
