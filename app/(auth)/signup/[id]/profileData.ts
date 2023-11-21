@@ -42,21 +42,34 @@ export const profileData = [
         ]
     },
     {
-        Name: "Ziegfred",
-        Email: "Ziegfred@email.com",
+        Name: "Ziegfred Carmona",
+        Title: "Developer",
+        Email: "carmonaziegfred@gmail.com",
+        Skills: {
+          programming: ["C#", "GO", "Python", "TypeScript"],
+          soft: ["Adaptability", "Teamwork", "Problem Solving"]
+        },
         workExperience: [
             {
               title: "Software Engineer",
               company: "Cest Louvi",
               location: "Bacolod City",
               date: "Sept 2023 - Present",
-              description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+              description: "Experienced computer science graduate specializing in API development and website creation, adept at leveraging innovative technologies to deliver user-friendly solutions and possessing strong problem-solving skills.",
               bulletPoints: [
-                "Ziegfred Info1.",
-                "Ziegfred Info2.",
-                "Ziegfred Info3.",
+                "Established an informative website featuring Bacolod City's local coffee shops, offering users an interactive platform to explore and discover the vibrant coffee culture.",
+                "Collaborated on the creation of an API using GO and MongoDB, showcasing proficiency in backend technologies and database management.",
+                "Developed a Command Line Interface (CLI) dedicated to validating databases, ensuring data integrity and reliability.",
               ]
             },
+        ],
+        Education: [
+          {
+            school: "USLS",
+            location: "Bacolod City",
+            degree: "Computer Science",
+            date: "2018 - 2022"
+          }
         ]
     },
     {
