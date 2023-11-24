@@ -10,30 +10,26 @@ const Pricing = () => {
   return (
     <section id="pricing" className="relative z-10 py-16 md:py-20 lg:py-28">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
-      <div className="py-12 md:py-20 border-t border-gray-800">
+        <div className="py-12 md:py-20 border-t border-gray-800">
 
-        {/* Section header */}
-        <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-          <div className="inline-flex text-sm font-semibold py-1 px-3 m-2 text-green-600 bg-green-200 rounded-full mb-4">Reach goals that matter</div>
-          <h1 className="h2 mb-4">Simple and Affordable Pricing</h1>
-          <p className="text-xl text-gray-400">We offer Basic and Premium plans that cater to different budgets and goals. Our commitment to affordability means you get exceptional value without compromising on quality. Explore our pricing options to find the plan that best suits your requirements, and remember, we stand behind our work with a satisfaction guarantee.</p>
+          {/* Section header */}
+          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
+            <div className="inline-flex text-sm font-semibold py-1 px-3 m-2 text-green-600 bg-green-200 rounded-full mb-4">Reach goals that matter</div>
+            <h1 className="h2 mb-4">Simple and Affordable Pricing</h1>
+            <p className="text-xl text-gray-400">We offer Basic and Premium plans that cater to different budgets and goals. Our commitment to affordability means you get exceptional value without compromising on quality. Explore our pricing options to find the plan that best suits your requirements, and remember, we stand behind our work with a satisfaction guarantee.</p>
+          </div>
         </div>
-
-        
-
-        </div>
-        </div>
-      <div className="container">
+      </div>
+      <div className="container mx-auto">
 
         <div className="w-full">
-        <div className="flex justify-center md:mb-12 lg:mb-16" data-wow-delay=".1s">
+          <div className="flex justify-center md:mb-12 lg:mb-16" data-wow-delay=".1s">
             <span
               onClick={() => setIsMonthly(true)}
-              className={`${
-                isMonthly
+              className={`${isMonthly
                   ? "pointer-events-none text-primary"
                   : "text-dark dark:text-white"
-              } mr-4 cursor-pointer text-base font-semibold`}
+                } mr-4 cursor-pointer text-base font-semibold`}
             >
               Monthly
             </span>
@@ -44,9 +40,8 @@ const Pricing = () => {
               <div className="relative">
                 <div className="h-5 w-14 rounded-full bg-[#1D2144] shadow-inner"></div>
                 <div
-                  className={`${
-                    isMonthly ? "" : "translate-x-full"
-                  } shadow-switch-1 absolute left-0 top-[-4px] flex h-7 w-7 items-center justify-center rounded-full bg-primary transition`}
+                  className={`${isMonthly ? "" : "translate-x-full"
+                    } shadow-switch-1 absolute left-0 top-[-4px] flex h-7 w-7 items-center justify-center rounded-full bg-primary transition`}
                 >
                   <span className="active h-4 w-4 rounded-full bg-white"></span>
                 </div>
@@ -54,11 +49,10 @@ const Pricing = () => {
             </div>
             <span
               onClick={() => setIsMonthly(false)}
-              className={`${
-                isMonthly
+              className={`${isMonthly
                   ? "text-dark dark:text-white"
                   : "pointer-events-none text-primary"
-              } ml-4 cursor-pointer text-base font-semibold`}
+                } ml-4 cursor-pointer text-base font-semibold`}
             >
               Yearly
             </span>
@@ -66,38 +60,38 @@ const Pricing = () => {
         </div>
 
         <div className="w-full max-w-screen-xl mx-auto">
-  
-        <div className="max-w-6xl mx-auto px-4 sm:px-500">
-    <div className="flex space-x-4">
-      <PricingBox
-        packageName="Basic Plan"
-        price={isMonthly ? "399" : "789"}
-        duration={isMonthly ? "mo" : "yr"}
-        subtitle="The Basic plan offers simplicity and directness. It acts as a digital presence for your company, delivering vital details. These platforms are simple to construct and sustain, providing a budget-friendly, established online existence."
-      >
-        <OfferList text="All UI Components" status="active" />
-        <OfferList text="Use with Unlimited Projects" status="inactive" />
-        <OfferList text="Commercial Use" status="active" />
-        <OfferList text="Email Support" status="inactive" />
-        <OfferList text="Lifetime Access" status="active" />
-        <OfferList text="Free Lifetime Updates" status="inactive" />
-      </PricingBox>
-      <PricingBox
-        packageName="Premium Plan"
-        price={isMonthly ? "589" : "999"}
-        duration={isMonthly ? "mo" : "yr"}
-        subtitle="The Premium Plan is more sophisticated and engaging. It not only imparts information but also enables users to engage with your content. These websites may include elements such as contact forms, blog sections, and more."
-      >
-        <OfferList text="All UI Components" status="active" />
-        <OfferList text="Use with Unlimited Projects" status="active" />
-        <OfferList text="Commercial Use" status="active" />
-        <OfferList text="Email Support" status="active" />
-        <OfferList text="Lifetime Access" status="active" />
-        <OfferList text="Free Lifetime Updates" status="active" />
-      </PricingBox>
-    </div>
-  </div>
-</div>
+
+          <div className="max-w-6xl mx-auto px-4 sm:px-500">
+            <div className="flex flex-col md:flex-row md:gap-4 sm:gap-4">
+              <PricingBox
+                packageName="Basic Plan"
+                price={isMonthly ? "399" : "789"}
+                duration={isMonthly ? "mo" : "yr"}
+                subtitle="The Basic plan offers simplicity and directness. It acts as a digital presence for your company, delivering vital details. These platforms are simple to construct and sustain, providing a budget-friendly, established online existence."
+              >
+                <OfferList text="All UI Components" status="active" />
+                <OfferList text="Use with Unlimited Projects" status="inactive" />
+                <OfferList text="Commercial Use" status="active" />
+                <OfferList text="Email Support" status="inactive" />
+                <OfferList text="Lifetime Access" status="active" />
+                <OfferList text="Free Lifetime Updates" status="inactive" />
+              </PricingBox>
+              <PricingBox
+                packageName="Premium Plan"
+                price={isMonthly ? "589" : "999"}
+                duration={isMonthly ? "mo" : "yr"}
+                subtitle="The Premium Plan is more sophisticated and engaging. It not only imparts information but also enables users to engage with your content. These websites may include elements such as contact forms, blog sections, and more."
+              >
+                <OfferList text="All UI Components" status="active" />
+                <OfferList text="Use with Unlimited Projects" status="active" />
+                <OfferList text="Commercial Use" status="active" />
+                <OfferList text="Email Support" status="active" />
+                <OfferList text="Lifetime Access" status="active" />
+                <OfferList text="Free Lifetime Updates" status="active" />
+              </PricingBox>
+            </div>
+          </div>
+        </div>
 
 
         <div className="absolute left-0 bottom-0 z-[-1]">

@@ -18,11 +18,11 @@ const PricingBox = (props: {
               $<span className="amount">{price}</span>
               <span className="time text-body-color">/{duration}</span>
             </h3>
-            <h4 className="mb-2 text-xl font-bold text-dark dark:text-white">
+            <h4 className="mb-2 text-xl font-bold text-black dark:text-white">
               {packageName}
             </h4>
           </div>
-          <p className="mb-7 text-base text-body-color">{subtitle}</p>
+          <p className="mb-7 text-base text-gray-700">{subtitle}</p>
           <div className="mb-8 border-b border-body-color border-opacity-10 pb-8 dark:border-white dark:border-opacity-10">
             <a className="btn text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0" href="/signin">
               Get Started
