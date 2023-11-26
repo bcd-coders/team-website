@@ -64,30 +64,27 @@ const Pricing = () => {
           <div className="max-w-6xl mx-auto px-4 sm:px-500">
             <div className="flex flex-col md:flex-row md:gap-4 sm:gap-4">
               <PricingBox
-                packageName="Basic Plan"
-                price={isMonthly ? "399" : "789"}
+                packageName="Basic Site"
+                price={isMonthly ? "120" : "580"}
                 duration={isMonthly ? "mo" : "yr"}
-                subtitle="The Basic plan offers simplicity and directness. It acts as a digital presence for your company, delivering vital details. These platforms are simple to construct and sustain, providing a budget-friendly, established online existence."
+                subtitle="Our Basic Plan is perfect for individuals and small businesses who want a straightforward website. Here's what you get"
               >
-                <OfferList text="All UI Components" status="active" />
-                <OfferList text="Use with Unlimited Projects" status="inactive" />
-                <OfferList text="Commercial Use" status="active" />
-                <OfferList text="Email Support" status="inactive" />
-                <OfferList text="Lifetime Access" status="active" />
-                <OfferList text="Free Lifetime Updates" status="inactive" />
+                <OfferList text="Simple Static Website" status="active" />
+                <OfferList text="Works on Phones and Computers" status="active" />
+                <OfferList text="Email Support" status="active" />
+                <OfferList text="Free Hosting" status="active" />
               </PricingBox>
               <PricingBox
-                packageName="Premium Plan"
-                price={isMonthly ? "589" : "999"}
+                packageName="Premium Site"
+                price={isMonthly ? "420" : "860"}
                 duration={isMonthly ? "mo" : "yr"}
-                subtitle="The Premium Plan is more sophisticated and engaging. It not only imparts information but also enables users to engage with your content. These websites may include elements such as contact forms, blog sections, and more."
+                subtitle="Our Premium Plan is the ultimate choice for those who desire a top-tier website with advanced features and a polished appearance. Here's what's included"
               >
-                <OfferList text="All UI Components" status="active" />
-                <OfferList text="Use with Unlimited Projects" status="active" />
-                <OfferList text="Commercial Use" status="active" />
-                <OfferList text="Email Support" status="active" />
-                <OfferList text="Lifetime Access" status="active" />
-                <OfferList text="Free Lifetime Updates" status="active" />
+                <OfferList text="Awesome Animated Website" status="active" />
+                <OfferList text="Works on Phones and Computers" status="active" />
+                <OfferList text="Email Support" status="active" />               
+                <OfferList text="Hosting and Website Address provided" status="active" />
+                <OfferList text="Updates and Maintenance of the site" status="active" />
               </PricingBox>
             </div>
           </div>

@@ -26,8 +26,8 @@ export default function Team() {
             <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-anchor="[data-aos-id-blocks]">
               <img className="w-40 h-90 mb-4" src="images/01.jpg" alt="Team Member 1" />
               <h4 className="h4 mb-2">Rex Posadas</h4>
-              <p className="text-lg text-gray-400 text-center">CEO / Software Engineer</p>
-              <button className="btn text-white bg-purple-600 hover:bg-purple-700 w-90 mt-2">See Resume</button>
+              <p className="text-lg text-gray-400 text-center">Technical Lead</p>
+              <button className="btn text-white bg-purple-600 hover:bg-purple-700 w-90 mt-2"><Link href='/signup/2'>See Resume</Link></button>
             </div>
 
             {/* Team member 2 */}
@@ -65,7 +65,7 @@ export default function Team() {
               <img className="w-40 h-90 mb-4" src="images/01.jpg" alt="Team Member 5" />
               <h4 className="h4 mb-2">Azaleah Caram</h4>
               <p className="text-lg text-gray-400 text-center">Project Manager</p>
-              <button className="btn text-white bg-purple-600 hover:bg-purple-700 w-90 mt-2">See Resume</button>
+              <button className="btn text-white bg-purple-600 hover:bg-purple-700 w-90 mt-2"><Link href='/signup/3'>See Resume</Link></button>
             </div>
           </div>
         </div>

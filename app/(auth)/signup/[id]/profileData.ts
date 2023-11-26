@@ -73,19 +73,52 @@ export const profileData = [
         ]
     },
     {
-      Name: "Ariel",
-      Email: "Ariel@email.com",
+      Name: "Rex Posadas",
+      Title: "Technical Lead",
+      Email: "rex.posadas@gmail.com",
+      Skills: {
+        programming: ["Django/Python", "GO", "Kubernetes ","PostgreSQL","Docker","RESTful WebServices"],
+        soft: ["Experienced", "Team Leadership", "Mentor", "Project Management"]
+      },
       workExperience: [
           {
-            title: "Software Engineer",
-            company: "Cest Louvi",
-            location: "Bacolod City",
-            date: "Sept 2023 - Present",
-            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+            title: "Freelance",
+            company: "N/A",
+            location: "Remote",
+            date: "March 2023 - Present",
+            description: "Working with small businesses to bring their ideas to market.",
             bulletPoints: [
-              "Ariel Info1.",
-              "Ariel Info2.",
-              "Ariel Info3.",
+              "Project Management: Techniques and tools to plan, execute, and oversee project tasks efficiently.",
+              "Go (Programming Language): A programming language known for its simplicity and efficiency, ideal for building scalable systems.",
+              "PostgreSQL: An open-source relational database management system known for its reliability and extensibility.",
+              "RESTful Web Services: Design principles for creating web services that follow Representational State Transfer (REST) architecture.",
+              "Django: A powerful web framework for building web applications using Python.",
+              "Kubernetes: A container orchestration platform that automates the deployment, scaling, and management of containerized applications.",
+            ]
+          },
+          {
+            title: "Mentor",
+            company: "Oregon State University",
+            location: "Oregon, United States",
+            date: "September 2022 - Present",
+            description: "Mentor Computer Science students in the Software Innovation Lab.",
+            bulletPoints: [
+              "Guided students in learning the Go programming language, emphasizing its simplicity and efficiency for developing robust applications.",
+              "Mentored students in utilizing MongoDB, focusing on its NoSQL structure and teaching how to store and manage data in a flexible and scalable way.",
+              "Mentored students in leveraging Node.js for server-side development, emphasizing its capabilities in building scalable and high-performance network applications.",
+              "Provided mentorship on Docker, teaching students how to use containers for packaging and deploying applications, ensuring a consistent and reproducible development environment.",
+            ]
+          },
+          {
+            title: "Head of Engineering/Founder",
+            company: "Agrarian Labs",
+            location: "Austin, Texas",
+            date: "September 2014 - Dec 2018",
+            description: "Founder of a new ag-tech company (grew company from 2 to 14 employees with offices in Phoenix, AZ and Austin, TX).",
+            bulletPoints: [
+              "Built, managed, mentored and led an engineering team.",
+              "Architected high volume IoT application that received over 10Gigs of data per day from IoT devices across the United States.",
+              "Executive team member responsible for full cycle recruiting along with strategies and organizing Technical Meetups for the purpose of competing in South by Southwest Conference and Festival - finalists in SXSW (Enterprise and Smart Data Technologies category)",
             ]
           },
       ]

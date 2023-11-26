@@ -19,28 +19,28 @@ const Team = () => {
             <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-anchor="[data-aos-id-blocks]">
               <img className="w-90 h-40 mb-4" src="images/01.jpg" alt="Team Member 1" />
               <h4 className="h4 mb-2">Rex Posadas</h4>
-              <p className="text-lg text-gray-400 text-center">CEO</p>
+              <p className="text-lg text-gray-400 text-center">Technical Lead</p>
             </div>
 
             {/* Team member 2 */}
             <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-delay="100" data-aos-anchor="[data-aos-id-blocks]">
               <img className="w-90 h-40 mb-4" src="images/01.jpg" alt="Team Member 2" />
               <h4 className="h4 mb-2 text-center">Lanz Montelibano</h4>
-              <p className="text-lg text-gray-400 text-center">Developer</p>
+              <p className="text-lg text-gray-400 text-center">Software Engineer</p>
             </div>
 
             {/* Team member 3 */}
             <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-delay="200" data-aos-anchor="[data-aos-id-blocks]">
               <img className="w-90 h-40 mb-4" src="images/01.jpg" alt="Team Member 3" />
               <h4 className="h4 mb-2">Ziegfred Carmona</h4>
-              <p className="text-lg text-gray-400 text-center">Developer</p>
+              <p className="text-lg text-gray-400 text-center">Software Engineer</p>
             </div>
 
             {/* Team member 4 */}
             <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-delay="200" data-aos-anchor="[data-aos-id-blocks]">
               <img className="w-90 h-40 mb-4" src="images/01.jpg" alt="Team Member 4" />
               <h4 className="h4 mb-2">Ariel Parcon</h4>
-              <p className="text-lg text-gray-400 text-center">Developer</p>
+              <p className="text-lg text-gray-400 text-center">Software Engineer</p>
             </div>
 
              {/* Team member 5 */}
